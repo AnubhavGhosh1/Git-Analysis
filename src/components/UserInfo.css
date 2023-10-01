@@ -1,0 +1,83 @@
+:root{
+    -clr-primary-1: #044c53;
+    --clr-primary-2: #0a6c75;
+    --clr-primary-3: #0e7c86;
+    --clr-primary-4: #148e99;
+    --clr-primary-5: #2caeba;
+    --clr-primary-6: #37bcc8;
+    --clr-primary-7: #52d1da;
+    --clr-primary-8: #88ebf2;
+    --clr-primary-9: #bff8fd;
+    --clr-primary-10: #e0fcff;
+    --clr-grey-1: #102a42;
+    --clr-grey-2: #243a52;
+    --clr-grey-3: #324d67;
+    --clr-grey-4: #48647f;
+    --clr-grey-5: #617d98;
+    --clr-grey-6: #829ab0;
+    --clr-grey-7: #9eb2c7;
+    --clr-grey-8: #bcccdc;
+    --clr-grey-9: #dae2ec;
+    --clr-grey-10: #f1f5f8;
+}
+.pink{
+    background: rgb(255, 224, 240);
+    color: rgb(218, 74, 145);
+    border-radius: 50%;
+    padding: 1rem;
+
+}
+.pink svg{
+    height: 30px;
+    width: 30px;
+}
+
+
+.green{
+    background: var(--clr-primary-10);
+    color: var(--clr-primary-5);
+    border-radius: 50%;
+    padding: 1rem;
+}
+.green svg{
+    height: 30px;
+    width: 30px;
+}
+
+
+.purple{
+    background: rgb(230, 230, 255);
+    color: rgb(93, 85, 250);
+    border-radius: 50%;
+    padding: 1rem;
+}
+.purple svg{
+    height: 30px;
+    width: 30px;
+    
+}
+
+
+.yellow{
+    background: rgb(255, 251, 234);
+    color: rgb(240, 180, 41);
+    border-radius: 50%;
+    padding: 1rem;
+    
+}
+.yellow svg{
+    height: 30px;
+    width: 30px;
+}
+.setImage svg{
+    width: 40px;
+}
+
+@media screen and (min-width:360px) {
+    .flexCol{
+        /* flex-direction: column; */
+    }
+    .width{
+        /* width: 10rem; */
+    }
+}
